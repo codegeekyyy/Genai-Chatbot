@@ -1,0 +1,26 @@
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-text-splitters
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+scipy
+pandas
+
+# Frontend
+streamlit
+streamlit-chat
+
+# model integration
+ollama
