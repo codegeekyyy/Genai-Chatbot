@@ -1,9 +1,14 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import OllamaLLM
+from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+
+
+load_dotenv()
 
 # Initialize model
-model = OllamaLLM(model="gemma3:4b", temperature=0.1)
+model=ChatGroq(model="llama-3.1-8b-instant",temperature=0.1)
 
 # Initialize parser
 parser = StrOutputParser()
